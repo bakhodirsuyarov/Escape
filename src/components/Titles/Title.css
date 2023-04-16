@@ -1,0 +1,35 @@
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container{
+  width: 940px;
+}
+
+.title-box{
+  padding-top: 60px;
+  padding-bottom: 16px;
+}
+
+.title-box h3{
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2E2E2E;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.title-box h3::before{
+  content: ' ';
+  position: absolute;
+  background: #DEDEDE;
+  width: 181px;
+  height: 1px;
+  left: -12%;
+  right: 40%;
+  top: 43px;
+}

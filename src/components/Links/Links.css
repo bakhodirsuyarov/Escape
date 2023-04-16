@@ -1,0 +1,35 @@
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+}
+
+.links-container{
+ width: 960px;
+}
+
+.links-container ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links-container ul li{
+  margin-right: 90px;
+  list-style: none;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+
+.links-container ul li:last-child{
+  margin-right: 0px;
+}
+
+.links-container a{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #768088;
+  text-decoration: none;
+}

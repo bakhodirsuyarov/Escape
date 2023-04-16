@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  padding-bottom: 157px;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-container h2{
+  font-size: 50px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.header-container span{
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.header-container a{
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 12px 31px;
+  background-color: #DD783F;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 31px;
+}
